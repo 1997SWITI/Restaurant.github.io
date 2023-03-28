@@ -1,0 +1,258 @@
+* {box-sizing: border-box;}
+
+*  {
+	padding: 0px;
+	margin: 0px;
+   }
+
+.body {
+       font-family: Arial, Helvetica, sans-serif;}
+  
+
+#nav-bar {	
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+}
+.navbar{ position: relative;
+	    background-image: linear-gradient(to right, #c70414, #b00210);
+	    padding: 0px; important!
+	    text-decoration: none;
+        font-size: 18px; 
+        line-height: 15px;
+        border-radius: 0px 0px 60px 60px;
+       }
+
+.logo{ border-radius:100px;
+       width:100px; }
+
+
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: #f7f5f5;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media(max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.carousel-inner img { 
+    width: 100%;
+    height: 70%;
+  }
+ .about-section-boxs{
+ 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqyzZtN2voId1zCe04LmRFtQLUi9s5TApVWA&usqp=CAU");
+ 	margin: 0px;
+ 	padding: 0px;
+ 	background-size:100%;
+ 	z-index: 899;
+}
+ .about-section-boxs{
+ opacity: 0.5;
+ }
+
+ .qt-box{
+ 	     background-image: url('https://img.freepik.com/premium-photo/allspice-bowl-top-view-isolated-white-background-organic-spice_84485-73.jpg');
+         background-repeat: no-repeat;
+         background-size: 100%;
+         background-size: cover;
+         padding: 100px 0;
+         background-attachment: fixed;
+         background-position: center ;
+         position: relative;
+         height: 500px; 
+         font-size: bold;
+         text-align: center;
+     }
+
+  
+
+.row a:hover{  
+         background-color: #bd0410;
+         color: white;
+         font-weight: bold;
+          }
+
+.nav-link{ 
+        color:black;
+        font-weight:bold; 
+        font-size: 18px;
+         padding: 10 px;
+        }
+ @media(max-width: 500px;) 
+
+
+.tab-content{ width:100%; }
+#menu{ 
+        width: 100%;
+        margin: 0px;
+     }
+
+.menu-list__title{
+	           margin:0 ;
+	           font-size: 25px;
+	           font-weight: normal;
+             line-height: 120% !important;
+            color: #1f1f1f;
+            }
+
+.gallery-box {
+    padding: 70px 0px;
+             }
+
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.div {
+    display: block;
+}
+
+
+@media (min-width: 576px;)
+
+
+
+.container-menu{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+          }
+
+
+.ul {width: 100%;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.menu-list {
+    display: block;
+    margin: 0 auto;
+    float: right;
+    width: 100%;
+    max-width: 100%;
+
+}
+.menu-list__item {
+    position: relative;
+    margin-bottom: 4px;
+    list-style: none;
+
+}
+.menu-list__item-title {
+    margin-right: 70px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-right: 96px;
+    text-align: left;
+    letter-spacing: 1.25px;
+}
+.menu-list__item-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    max-width: 96px;
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.27316;
+    font-weight: bold;
+    margin-right:-90%;}
+    
+}
+.fade {
+    transition: opacity .15s linear;
+}
+* ::after, ::before {
+    box-sizing: border-box;}
+
+.contact-imfo-box {
+    background: #ed072d;
+    padding: 30px 0;
+    border-radius: 100px;}
+
+ .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}   
+
+.col-md-4 {
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: dotted #f5e4e5;
+    padding: 12px;
+    text-align: center;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.contact-imfo-box i {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    color: #e31e24;
+    font-size: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer-area{ padding:24px;
+             margin: 24px;}
